@@ -1,6 +1,9 @@
 function reverseString(str) {
+    // splits string into characters and returns an array
     let splitString = str.split('');
+    // reverse arrays
     let reverseArray = splitString.reverse();
+    // joins array to string
     let joinArray = reverseArray.join('');
 
     return joinArray;
