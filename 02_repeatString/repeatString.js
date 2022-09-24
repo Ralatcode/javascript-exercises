@@ -1,3 +1,4 @@
+const number = Math.floor(Math.random() * 1000);
 
 function repeatString (string, num) {
     let result = '';
@@ -27,7 +28,10 @@ repeatString('hey', 1);
 repeatString('hey', 0);
 
 // test 5 
-repeatString('hey', -1); 
+repeatString('hey', -1);
+
+// test 6 
+repeatString('hey', number);
 
 
 // Do not edit below this line
