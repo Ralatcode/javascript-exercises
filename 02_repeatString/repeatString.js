@@ -1,8 +1,13 @@
 
 function repeatString (string, num) {
-    let result = '';    
-    for (let i = 0; i < num; i++) {
-        result += string;
+    let result = '';
+
+    if (num < 0) {
+        result = 'ERROR';
+    } else {
+        for (let i = 0; i < num; i++) {
+            result += string;
+        }
     }
 
     return result;    
@@ -17,6 +22,13 @@ repeatString('hey', 10);
 
 // test 3
 repeatString('hey', 1);
+
+// test 4 
+repeatString('hey', 0);
+
+// test 5 
+repeatString('hey', -1); 
+
 
 // Do not edit below this line
 module.exports = repeatString;
