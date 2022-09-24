@@ -10,5 +10,7 @@ function repeatString (string, num) {
 
 repeatString('hey', 3);
 
+repeatString('hey', 10);
+
 // Do not edit below this line
 module.exports = repeatString;
