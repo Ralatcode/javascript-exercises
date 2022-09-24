@@ -15,5 +15,8 @@ reverseString('hello there');
 // test 3
 reverseString('123! abc!');
 
+// test 4 
+reverseString('');
+
 // Do not edit below this line
 module.exports = reverseString;
