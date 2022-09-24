@@ -34,5 +34,8 @@ repeatString('hey', -1);
 repeatString('hey', number);
 
 
+// 7 
+repeatString('', 10);
+
 // Do not edit below this line
 module.exports = repeatString;
