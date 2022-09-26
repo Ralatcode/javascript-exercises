@@ -7,7 +7,6 @@ function removeFromArray(array, ...args) {
     });
 
     return array;
-
 }
 // test1
 removeFromArray([1, 2, 3, 4], 3);
@@ -18,8 +17,8 @@ removeFromArray([1, 2, 3, 4], "tacos");
 // test4
 removeFromArray([1, 2, 3, 4], 7, 2);
 // test 5
-removeFromArray([1, 2, 3, 4], 1, 2, 3, 4);
-// test 6
+removeFromArray([1, 2, 3, 4], 'tacos', true, 03);
+// // test 6
 removeFromArray(["hey", 2, 3, "ho"], "hey", 3);
 // test 7
 removeFromArray([1, 2, 3], "1", 3);
