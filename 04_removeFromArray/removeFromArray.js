@@ -21,6 +21,9 @@ removeFromArray([1, 2, 3, 4], 7, 2);
 removeFromArray([1, 2, 3, 4], 1, 2, 3, 4);
 // test 6
 removeFromArray(["hey", 2, 3, "ho"], "hey", 3);
+// test 7
+removeFromArray([1, 2, 3], "1", 3);
+
 
 // Do not edit below this line
 module.exports = removeFromArray;
