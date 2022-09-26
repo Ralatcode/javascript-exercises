@@ -17,6 +17,8 @@ removeFromArray([1, 2, 3, 4], 3, 2);
 removeFromArray([1, 2, 3, 4], "tacos");
 // test4
 removeFromArray([1, 2, 3, 4], 7, 2);
+// test 5
+removeFromArray([1, 2, 3, 4], 1, 2, 3, 4);
 
 
 // Do not edit below this line
