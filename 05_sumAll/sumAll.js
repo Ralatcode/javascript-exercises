@@ -12,9 +12,6 @@ function sumAll(min, max) {
     }
     return sum;
   };
-// const result = sumAll(1,4);
-
-// console.log(result);
 
 
 // Do not edit below this line
