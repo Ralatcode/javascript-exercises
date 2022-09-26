@@ -19,7 +19,8 @@ removeFromArray([1, 2, 3, 4], "tacos");
 removeFromArray([1, 2, 3, 4], 7, 2);
 // test 5
 removeFromArray([1, 2, 3, 4], 1, 2, 3, 4);
-
+// test 6
+removeFromArray(["hey", 2, 3, "ho"], "hey", 3);
 
 // Do not edit below this line
 module.exports = removeFromArray;
